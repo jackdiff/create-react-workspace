@@ -1,0 +1,39 @@
+{
+  "name": "laravel-preset-react-app",
+  "version": "1.1.0",
+  "description": "Add config to integrate React with Laravel app.",
+  "repository": "jackdiff/create-react-workspace",
+  "license": "",
+  "engines": {
+    "node": ">=6"
+  },
+  "bugs": {
+    "url": "https://github.com/jackdiff/create-react-workspace/issues"
+  },
+  "scripts": {
+    "changelog": "lerna-changelog",
+    "preset-react-app": "node tasks/pra.js"
+  },
+  "devDependencies": {
+    "eslint": "4.15.0",
+    "execa": "^0.9.0",
+    "husky": "^0.13.2",
+    "lerna": "2.6.0",
+    "lerna-changelog": "^0.6.0",
+    "lint-staged": "^3.3.1",
+    "meow": "^4.0.0",
+    "multimatch": "^2.1.0",
+    "prettier": "1.6.1",
+    "svg-term-cli": "^2.0.3",
+    "tempy": "^0.2.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "git add"
+    ],
+    "yarn.lock": [
+      "git rm --cached"
+    ]
+  }
+}
