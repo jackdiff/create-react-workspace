@@ -1,6 +1,6 @@
 {
   "name": "laravel-preset-react-app",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Add config to integrate React with Laravel app.",
   "repository": "jackdiff/create-react-workspace",
   "license": "",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "changelog": "lerna-changelog",
-    "create-react-workspace": "node tasks/pra.js"
+    "laravel-preset-react-app": "node tasks/pra.js"
   },
   "devDependencies": {
     "eslint": "4.15.0",
