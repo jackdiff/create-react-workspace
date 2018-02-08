@@ -38,6 +38,7 @@ addScript({'key': 'start', 'value': 'react-scripts start'});
 addScript({'key': 'build', 'value': 'react-scripts build'});
 addScript({'key': 'test', 'value': 'react-scripts test --env=jsdom'});
 addScript({'key': 'eject', 'value': 'react-scripts eject'});
+addScript({'key': 'rwatch', 'value': 'react-scripts watch'});
 
 console.log('Install React preset successfully!');
 console.log('================== truongpx ===================');
